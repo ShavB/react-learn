@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ShavB/react-learn/issues"
   },
-  "homepage": "https://github.com/ShavB/react-learn#readme"
+  "homepage": "https://github.com/ShavB/react-learn#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
 }
