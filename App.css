@@ -1,3 +1,5 @@
+
+/* Header */
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -38,11 +40,25 @@
 }
 
 .body-container {
-  /* height: 100vh; */
+  height: 100vh;
   box-shadow: 0 0 1px #ccc, /* top shadow */ 0 0 2px #ccc,
     /* top shadow */ 0 0 3px #ccc, /* top shadow */ 0 0 4px #ccc,
     /* right shadow */ 0 0 5px #ccc, /* right shadow */ 0 0 6px #ccc,
     /* right shadow */ 0 0 7px #ccc, /* bottom shadow */ 0 0 8px #ccc,
     /* bottom shadow */ 0 0 9px #ccc; /* bottom shadow */
   border-radius: 5px;
+  padding: 20px;
+  display: flex;
+}
+
+
+/* body */
+
+.restaurant-card{
+    border: 1px solid grey;
+    height: 40vh;
+    width: 15vw;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 20px;
 }
